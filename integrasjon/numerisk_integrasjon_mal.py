@@ -4,8 +4,8 @@ def f(x):
     return math.log(x)
 
 a = 1               # startverdi
-b = 5               # stoppverdi
-n = 2           # antall steg
+b = 7               # stoppverdi
+n = 10000           # antall steg
 
 def nedre_trappesum(funk=f, start=a, slutt=b, steg=n):
     delta_x = (slutt - start) / steg
